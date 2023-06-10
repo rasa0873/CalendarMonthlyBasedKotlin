@@ -57,7 +57,6 @@ public class CalendarAdapter extends RecyclerView.Adapter<CalendarAdapter.Calend
 
         private Context context = null;
 
-
         public CalendarViewHolder2(@NonNull View itemView, CalendarAdapter.OnItemListener onItemListener, Context context) {
             super(itemView);
             dayOfMonth = itemView.findViewById(R.id.cellDayText);
